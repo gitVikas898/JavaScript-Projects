@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="rock-paper-scissors.css">
+    <title>Rock , Paper &amp; Scissors</title>
+</head>
+<body>
+    
+    <p class="title">Rock , Paper & Scissor</p>
+
+<!--Rock Button-->
+    <button title="Rock" class="move-button js-rock-button"><img class="move-icon" src="img/Rock-emoji.png" alt="rock"></button>
+<!--Paper Button-->
+    <button title="Paper" class="move-button js-paper-button"><img class="move-icon" src="img/Paper-emoji.png" alt="paper"></button>
+<!--Scissor Button-->
+    <button title="Scissors" class="move-button js-scissor-button"><img class="move-icon" src="img/Scissors-emoji.png" alt="scissors"></button> 
+
+<!-- Display Using DOM-->  
+<p class="js-moves" ></p>
+<p class="js-result result"></p>
+<p class="js-score"></p>
+
+
+<div class="button-container">
+   
+<div class="button-wrapper">
+     <!--Reset Score Button-->
+    <button title="Reset" class="move-button js-reset-button"><img class="move-icon" src="img/svg_402601.svg" alt=""></button>
+    <span class="button-label">Reset</span>
+   
+</div>
+    
+    <div class="button-wrapper">
+        <!--AutoPlay Button-->
+    <button title="AutoPlay" class="move-button js-autoplay-button"><img class="move-icon" src="img/auto-play.png" alt=""></button>
+    <span class="button-label js-autoplay">AutoPlay</span>
+
+    </div>
+</div>
+
+
+<p class="reset-text  js-reset-confirm"></p>
+
+
+
+    <script src="rock-paper-scissors.js"></script>
+</body>
+</html>

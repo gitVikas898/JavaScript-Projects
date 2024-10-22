@@ -1,0 +1,79 @@
+body{
+    background-color:black;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.move-icon{
+    height: 50px;
+    width: 50px;
+
+}
+.move-button{
+    height: 120px;
+    width: 120px;
+    background-color:black ;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+.move-button:hover{
+    opacity: 0.5;
+}
+
+.result{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-container button {
+    display: inline-block;
+
+    background: none;
+    border: none;
+}
+
+.button-label {
+    display: block;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+/*reset button styling*/
+
+
+.reset-text{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.yes-button,.no-button{
+    margin:5px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.yes-button{
+    background-color: lightgreen;
+}
+.no-button{
+    background-color: lightcoral;
+}
