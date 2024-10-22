@@ -1,0 +1,48 @@
+body{
+    background-color: lavenderblush;
+    text-align: center;
+   
+}
+#container{
+    height: 720px;
+    background-image:url('img/cat-2.jpg') ;
+    background-size:cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#fact-display{
+    border: none;
+    background-color: lavenderblush;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 0.5em;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-size: 1.5em;
+    color:rgb(103, 103, 103)
+   
+}
+#heading{
+    font-size: 3em;
+}
+
+#generate-btn{
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: crimson;
+    color: #fff;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+#generate-btn:hover{
+    background-color: seagreen ;
+}
+#loading{
+    font-size: 2em;
+    display: none;
+}
